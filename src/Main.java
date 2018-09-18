@@ -13,7 +13,7 @@ public class Main {
         Scanner scanner1=new Scanner(System.in);
         String haslo=scanner.nextLine();
 
-        if ((login=="login")&&(haslo=="haslo")) //do poprawy!!!!!!
+        if (("login".equals(login))&&("haslo".equals(haslo)))
             System.out.println("Logowanie poprawne");
         else {
             System.out.println("Bledny login lub haslo");
